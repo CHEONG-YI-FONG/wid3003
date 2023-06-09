@@ -451,11 +451,24 @@ button {
     padding-bottom: 0px;
 }
 
-.coffee_section_2 {
+/* coffee_section_2 {
     width: 90%;
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
+}
+*/
+
+.coffee_section_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coffee_section_2 .col-lg-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 10px;
 }
 
 .bulit_icon {
@@ -463,10 +476,15 @@ button {
     text-align: center;
 }
 
+/* .coffee_img img {
+    width: 80%;
+    float: left;
+} */
+
 .coffee_img img {
     width: 100%;
-    float: left;
-}
+    height: auto;
+  }
 
 .types_text {
     width: 100%;
@@ -483,7 +501,7 @@ button {
     float: left;
     font-size: 16px;
     color: #3b3b3b;
-    text-align: center;
+    text-align: justify;
     margin: 0px;
 }
 
@@ -513,12 +531,12 @@ button {
 }
 
 #main_slider a.carousel-control-prev {
-    left: -50px;
+    left: -10px;
     top: 95px;
 }
 
 #main_slider a.carousel-control-next {
-    right: -50px;
+    right: -10px;
     top: 95px;
     color: #fefefd;
     background-color: #4a4949;
