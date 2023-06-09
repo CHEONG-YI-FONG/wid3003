@@ -502,7 +502,7 @@ button {
     font-size: 20px;
     color: #777474;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold,italic;
     padding-top: 5px;
 }
 
@@ -542,12 +542,12 @@ button {
 
 #main_slider a.carousel-control-prev {
     left: -10px;
-    top: 170px;
+    top: 190px;
 }
 
 #main_slider a.carousel-control-next {
     right: -10px;
-    top: 170px;
+    top: 190px;
     color: #fefefd;
     background-color: #4a4949;
 }
