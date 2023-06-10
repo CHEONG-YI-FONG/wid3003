@@ -258,6 +258,12 @@ button {
     float: right;
 }
 
+.logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
 .navbar {
     padding: 15px 50px;
 }
@@ -505,6 +511,15 @@ button {
     margin: 0px;
 }
 
+.looking_text_index {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #3b3b3b;
+    text-align: center;
+    margin: 0px;
+}
+
 .read_bt {
     width: 170px;
     margin: 0 auto;
@@ -572,16 +587,61 @@ button {
     padding-bottom: 90px;
 }
 
+.about_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
 .col-md-6 {
     height: 100%;
 }
 
-.about-taital {
-    margin-top: 20px;
+
+.about_taital_1 {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #3b3b3b;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0px;
 }
 
 .about_text {
-    text-align: justify;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #232222;
+    margin: 0px;
+}
+
+.about_taital_box {
+    width: 500px;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    padding: 40px 20px 30px 20px;
+    box-shadow: 0px 0px 30px 0px;
+    position: absolute;
+    top: 1700px;
+}
+
+.image_iman {
+    padding-left: 250px;
+    position: relative;
+}
+
+.about_img {
+    width: 100%;
 }
 
 .half-screen-image {
