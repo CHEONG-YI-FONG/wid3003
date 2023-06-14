@@ -78,21 +78,24 @@
                   <h1 style="font-family:verdana; font-size:300%; text-align:left;" class="contact_taital">Contact Us</h1>
                   <div style="text-align:left;" class="bulit_icon"><img src="images/bulit-icon.png"></div>
                   <div class="feedback">
+                     <!-- Feedback Form -->
                      <h1 style="font-family:verdana; font-size:200%; text-align:left;" class="feedback form">Feedback Form</h1>
                      <div style="font-family:verdana; font-size:100%; text-align:left;" class="comment">Please provide as much information that is relevant to the issues as possible.</div>
+                     <!-- General Information -->
                      <h1 style="font-family:verdana; font-size:200%; text-align:left;" class="general information">General Information</h1>
-                     <input type="text" class="mail_text" placeholder="e.g. John" name="Name">
-                     <input type="text" class="mail_text" placeholder="e.g. johncena@gmail.com" name="Email">
-                     <input type="text" class="mail_text" placeholder="e.g. 0123456789" name="Phone">
-                     <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Massage"></textarea>
-                     <div class="send_bt"><a href="#">SEND</a></div>
+                     <label for="Name" style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left; opacity: 0.7;">* Name:</label><br>
+                     <input type="text" class="mail_text" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-family: Verdana, Arial, sans-serif; font-size: 14px; color: rgba(0, 0, 0, 1);" placeholder="e.g. John" name="Name"><br>
+                     <label for="Email" style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left; opacity: 0.7;">* Email:</label><br>
+                     <input type="text" class="mail_text" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-family: Verdana, Arial, sans-serif; font-size: 14px; color: rgba(0, 0, 0, 1);" placeholder="e.g. johncena@gmail.com" name="Email"><br>
+                     <label for="Phone" style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left; opacity: 0.7;">* Phone:</label><br>
+                     <input type="text" class="mail_text" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-family: Verdana, Arial, sans-serif; font-size: 14px; color: rgba(0, 0, 0, 1);" placeholder="e.g. 0123456789" name="Phone"><br>
                   </div>
 
-                  <div style="margin-top: 50px;"></div>
+                  <div style="margin-top: 90px;"></div>
 
                   <div class="Info">
                      <h1 style="font-family:verdana; font-size:200%; text-align:left;" class="info">Info</h1>
-                     <div style="font-family:Corporative Cnd Medium; font-size:70%; text-align:left;" class="comment">* Category</div>
+                     <div style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left;" class="comment">* Category</div>
                      <select name="category" class="form-control">
                         <option value="option1">Cleanliness</option>
                         <option value="option2">Hospitality</option>
@@ -108,7 +111,7 @@
                      
                      <div class="row">
                         <div class="col-sm-6">
-                           <div style="font-family:Corporative Cnd Medium; font-size:70%; text-align:left;" class="comment">* Time of Visit</div>
+                           <div style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left;" class="comment">* Time of Visit</div>
                            <select name="time of visit" class="form-control">
                               <option value="option1">Early Morning (12am - 7am)</option>
                               <option value="option2">Morning (7am - 10am)</option>
@@ -121,7 +124,7 @@
                            </select>
                         </div>
                         <div class="col-sm-6">
-                           <div style="font-family:Corporative Cnd Medium; font-size:70%; text-align:left;" class="comment">* Type of Visit</div>
+                           <div style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left;" class="comment">* Type of Visit</div>
                            <select name="type of visit" class="form-control">
                               <option value="option1">Dine In</option>
                               <option value="option2">Take Away</option>
@@ -132,15 +135,15 @@
                         </div>
                      </div>
 
-                     <div style="margin-top: 35px;"></div>
+                     <div style="margin-top: 30px;"></div>
 
                      <div class="row">
                         <div class="col-sm-6">
-                           <div style="font-family:Corporative Cnd Medium; font-size:70%; text-align:left;" class="comment">* Date of Visit</div>
+                           <div style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left;" class="comment">* Date of Visit</div>
                            <input type="date" class="form-control" name="date">
                         </div>
                         <div class="col-sm-6">
-                           <div style="font-family:Corporative Cnd Medium; font-size:70%; text-align:left;" class="comment">* State</div>
+                           <div style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left;" class="comment">* State</div>
                            <select name="state" class="form-control">
                               <option value="option1">Melaka</option>
                               <option value="option2">Johor</option>
@@ -162,15 +165,16 @@
                         </div>
                      </div>
                   </div>
-               </div>
-            </div>
-         </div>
 
-         <div class="container-fluid">
-            <div class="contact_section_2">
-               <div class="row">
-                  <div class="col-sm-12">
-                     
+                  <div style="margin-top: 90px;"></div>
+
+                  <div class="Message Details">
+                     <h1 style="font-family:verdana; font-size:200%; text-align:left;" class="divine beverage info">Message Details</h1>
+                     <div style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left;" class="comment">* Subject</div>
+                     <input type="text" class="mail_text" placeholder="Message subject" name="Email">
+                     <div style="font-family:Corporative Cnd Medium; font-size:100%; text-align:left;" class="comment">* Message</div>
+                     <textarea class="massage-bt" placeholder="Leave your message here" rows="5" id="comment" name="Massage"></textarea>
+                     <div class="send_bt"><a href="#">Submit</a></div>
                   </div>
                </div>
             </div>

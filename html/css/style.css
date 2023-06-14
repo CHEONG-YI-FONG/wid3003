@@ -1077,6 +1077,12 @@ textarea#comment.update_mail::placeholder {
     color: #363636;
 }
 
+/* Adjust the opacity of placeholders */
+.mail_text::placeholder,
+label {
+  opacity: 0.5; /* Set the desired opacity value */
+}
+
 
 /* copyright section end */
 
